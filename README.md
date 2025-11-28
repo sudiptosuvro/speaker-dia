@@ -28,7 +28,7 @@ The project includes:
 ### Dataset
 This project uses a subset of the VoxConverse dataset — a real-world, multi-speaker conversational audio corpus widely used for speaker diarization research. To keep experiments lightweight and reproducible, a small curated subset of VoxConverse was used:
 
-| Split | # Audio Files | Description |
+| Split |  Audio Files  | Description |
 |-------|--------------:|-------------|
 | **Dev**  | 15 files | Used for model comparison and tuning |
 | **Test** | 8 files  | Used for final evaluation and reporting |
