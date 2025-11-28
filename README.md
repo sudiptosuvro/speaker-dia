@@ -44,6 +44,20 @@ This project uses a subset of the VoxConverse dataset — a real-world, multi-sp
 - pyannote.core
 - pyannote.metrics
 
+### Methodology:
+
+PyAnnote pipeline
+
+<p align="center">
+  <img src="figs/pyannote.png" width="70%">
+</p>
+
+ECAPA-TDNN pipeline:
+
+<p align="center">
+  <img src="figs/ecapavbx.png" width="70%">
+</p>
+
 ### Results:
 
 Below is the comparison of **Diarization Error Rate (DER)** and **Jaccard Error Rate (JER)** on the dev and test splits, where **PyAnnote** produces cleaner speaker boundaries, fewer speaker confusions, and is significantly more robust.
