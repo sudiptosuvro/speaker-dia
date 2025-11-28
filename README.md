@@ -14,7 +14,7 @@ The project includes:
 ✔ DER/JER evaluation  
 ✔ Result visualizations  
 
-## 📁 Folder Structure
+### 📁 Folder Structure
 
 - config.py                   # Global experiment config 
 - utils.py                    # RTTM writing, helpers  
@@ -27,10 +27,17 @@ The project includes:
 
 ### Requirements
 
-torch==2.1.2
-torchaudio==2.1.2
-transformers==4.37.0
-huggingface_hub
-pyannote.audio==3.1.1
-pyannote.core
-pyannote.metrics
+- torch==2.1.2
+- torchaudio==2.1.2
+- transformers==4.37.0
+- huggingface_hub
+- pyannote.audio==3.1.1
+- pyannote.core
+- pyannote.metrics
+
+### Results:
+
+Below is the comparison of Diarization Error Rate (DER) and Jaccard Error Rate (JER) on the dev and test splits, where PyAnnote produces cleaner speaker boundaries, fewer speaker confusions, and is significantly more robust.
+<img src="figs/der_jer_comparison.png" align="center" width="40%"/>
+This scatter plot visualizes the relationship between Diarization Error Rate (DER) and Jaccard Error Rate (JER) for every individual audio file in the dataset. Blue(PyAnnote) points cluster tightly near the lower-left corner (low DER + low JER), indicating stable and reliable diarization performance across all files.
+<img src="figs/der_vs_jer_per_file.png" align="center" width="40%"/>
