@@ -46,7 +46,7 @@ This project uses a subset of the VoxConverse dataset — a real-world, multi-sp
 
 ### Methodology:
 
-PyAnnote pipeline
+PyAnnote pipeline:
 
 <p align="center">
   <img src="figs/pyannote.png" width="70%">
