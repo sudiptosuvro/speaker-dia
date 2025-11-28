@@ -16,20 +16,20 @@ The project includes:
 
 # 📁 Folder Structure
 
-speaker-dia/
+<speaker-dia/
 │
-├── config.py                     # Global experiment config
-├── utils.py                      # RTTM writing, helpers
-├── metrics.py                    # DER/JER computation
+├── config.py                   # Global experiment config
+├── utils.py                    # RTTM writing, helpers
+├── metrics.py                  # DER/JER computation
 │
-├── ecapa_vbx_run.py              # ECAPA embeddings + VBx clustering
-├── pyannote_run.py               # PyAnnote diarization pipeline
+├── ecapa_vbx_run.py            # ECAPA embeddings
+├── pyannote_run.py             # PyAnnote diarization pipeline
 │
-├── main_ecapa_vbx.ipynb          # Run ECAPA+VBx
-├── main_pyannote.ipynb           # Run PyAnnote
-├── eval.ipynb                    # Evaluation + plotting
+├── main_ecapa_vbx.ipynb        # Run ECAPA+VBx diarization
+├── main_pyannote.ipynb         # Run Pyannote diarization
+├── eval.ipynb                  # Evaluation + plotting (DER/JER)
 │
-├── outputs/                      # Generated RTTM files
-├── figs/                         # Plots (DER/JER)
-├── results_summary.csv           # Final metrics summary
-└── dataset/                      # WAV + RTTM (not included)
+├── outputs/                    # Generated RTTM files
+├── figs/                       # Plots (DER/JER)
+├── results_summary.csv         # Final evaluation summary
+└── dataset/                    # WAV + RTTM files>
