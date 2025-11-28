@@ -25,6 +25,15 @@ The project includes:
 - main_pyannote.ipynb         # Run Pyannote diarization  
 - eval.ipynb                  # Evaluation + plotting (DER/JER)
 
+### Dataset
+This project uses a subset of the VoxConverse dataset — a real-world, multi-speaker conversational audio corpus widely used for speaker diarization research. To keep experiments lightweight and reproducible, a small curated subset of VoxConverse was used:
+
+| Split | # Audio Files | Description |
+|-------|--------------:|-------------|
+| **Dev**  | 15 files | Used for model comparison and tuning |
+| **Test** | 8 files  | Used for final evaluation and reporting |
+
+
 ### Requirements
 
 - torch==2.1.2
