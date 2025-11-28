@@ -37,7 +37,17 @@ The project includes:
 
 ### Results:
 
-Below is the comparison of Diarization Error Rate (DER) and Jaccard Error Rate (JER) on the dev and test splits, where PyAnnote produces cleaner speaker boundaries, fewer speaker confusions, and is significantly more robust.
-<img src="figs/der_jer_comparison.png" align="center" width="40%"/>
-This scatter plot visualizes the relationship between Diarization Error Rate (DER) and Jaccard Error Rate (JER) for every individual audio file in the dataset. Blue(PyAnnote) points cluster tightly near the lower-left corner (low DER + low JER), indicating stable and reliable diarization performance across all files.
-<img src="figs/der_vs_jer_per_file.png" align="center" width="40%"/>
+## Results
+
+Below is the comparison of **Diarization Error Rate (DER)** and **Jaccard Error Rate (JER)** on the dev and test splits, where **PyAnnote** produces cleaner speaker boundaries, fewer speaker confusions, and is significantly more robust.
+
+<p align="center">
+  <img src="figs/der_jer_comparison.png" width="70%">
+</p>
+
+This scatter plot visualizes the relationship between **DER** and **JER** for every individual audio file in the dataset.  
+Blue (**PyAnnote**) points cluster tightly near the lower-left corner (low DER + low JER), indicating **stable and reliable diarization performance** across all files.
+
+<p align="center">
+  <img src="figs/der_vs_jer_per_file.png" width="55%">
+</p>
