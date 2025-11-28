@@ -14,7 +14,7 @@ The project includes:
 ✔ DER/JER evaluation  
 ✔ Result visualizations  
 
-### 📁 Folder Structure
+### Folder Structure
 
 - config.py                   # Global experiment config 
 - utils.py                    # RTTM writing, helpers  
@@ -36,8 +36,6 @@ The project includes:
 - pyannote.metrics
 
 ### Results:
-
-## Results
 
 Below is the comparison of **Diarization Error Rate (DER)** and **Jaccard Error Rate (JER)** on the dev and test splits, where **PyAnnote** produces cleaner speaker boundaries, fewer speaker confusions, and is significantly more robust.
 
